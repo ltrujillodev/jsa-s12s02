@@ -1,0 +1,69 @@
+/* Contenedor del formulario */
+.form-container {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Título del formulario */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo de los grupos de entrada */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Etiquetas */
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Entradas de texto */
+.form-input,
+.form-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Checkboxes y Radios */
+.form-checkbox,
+.form-radio {
+  margin-right: 10px;
+}
+
+.form-checkbox-label,
+.form-radio-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Botón de envío */
+.form-button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-button:hover {
+  background: #0056b3;
+}
